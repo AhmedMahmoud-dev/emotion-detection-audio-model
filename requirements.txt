@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+requests
+soundfile
+librosa
+noisereduce
+openai-whisper
+funasr
+torch
