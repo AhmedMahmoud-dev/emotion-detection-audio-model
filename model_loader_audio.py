@@ -56,7 +56,7 @@ TEXT_API_URL  = "http://13.63.140.123:8000/emotion/text_model"
 
 
 
-WHISPER_MODEL_NAME = "small"
+WHISPER_MODEL_NAME = "tiny"
 AUDIO_MODEL_NAME   = "iic/emotion2vec_plus_base"
 
 SAMPLE_RATE      = 16_000
