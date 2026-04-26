@@ -28,13 +28,17 @@ app = FastAPI(
     description="Multimodal audio emotion analysis with timeline tracking",
 )
 
+# --- CORS Configuration ---
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# --- End CORS Configuration ---
 
 TMP_DIR = "tmp_audio"
 ALLOWED_EXTENSIONS = {".wav", ".mp3", ".ogg", ".flac", ".m4a", ".mpeg", ".webm"}
