@@ -53,7 +53,7 @@ if not log.handlers:
 
 # TEXT_API_URL  = "http://127.0.0.1:8020/emotion/text_model"
 # TEXT_API_URL  = "http://13.63.140.123:8000/emotion/text_model"
-TEXT_API_URL  = "https://graduation-project-website-eight.vercel.app/api/emotion/text_model"
+TEXT_API_URL  = "https://graduation-project-website-eight.vercel.app/text/emotion/text_model"
 
 
 
